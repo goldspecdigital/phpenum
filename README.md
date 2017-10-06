@@ -13,12 +13,14 @@ As this repository is private on GitHub, we need to tell composer where to find 
 ```json
 {
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/goldspecdigital/phpenum" }
+        { "type": "vcs", "url": { "type": "vcs", "url": "git@github.com:/goldspecdigital/phpenum.git" } }
     ]
 }
 ``` 
 
 You can then pull in this dependency as normal: `composer require goldspecdigital/phpenum "~1.0"`
+
+_As this is a private repository, you will need to enter the passphrase for your SSH key so GitHub can authorise you as a member of the organisation._
 
 ## Contributing
 Anyone can contribute to this simple project. Simply submit a pull request at the [goldspecdigital/phpenum](https://github.com/goldspecdigital/phpenum) repository.
