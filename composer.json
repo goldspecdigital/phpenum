@@ -1,0 +1,25 @@
+{
+    "name": "goldspecdigital/phpenum",
+    "description": "A useful enum wrapper.",
+    "keywords": ["enum"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Inamdar",
+            "email": "matthew.inamdar@goldspecdigital.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0"
+    },
+	"require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "GoldSpecDigital\\PHPEnum\\": "src/",
+            "GoldSpecDigital\\PHPEnum\\Tests\\": "tests/"
+        }
+    }
+}
