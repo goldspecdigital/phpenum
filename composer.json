@@ -2,7 +2,7 @@
     "name": "goldspecdigital/phpenum",
     "description": "A useful enum wrapper.",
     "keywords": ["enum"],
-    "homepage": "https://github.com/goldspecdigital/phpenum"
+    "homepage": "https://github.com/goldspecdigital/phpenum",
     "license": "MIT",
     "authors": [
         {
