@@ -2,14 +2,16 @@
     "name": "goldspecdigital/phpenum",
     "description": "A useful enum wrapper.",
     "keywords": ["enum"],
+    "homepage": "https://github.com/goldspecdigital/phpenum"
     "license": "MIT",
     "authors": [
         {
             "name": "Matthew Inamdar",
-            "email": "matthew.inamdar@goldspecdigital.com"
+            "email": "matthew.inamdar@goldspecdigital.com",
+	    "role": "Developer"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
 		"php": ">=7.0"
     },
