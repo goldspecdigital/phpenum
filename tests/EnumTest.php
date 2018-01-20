@@ -39,7 +39,7 @@ class EnumTest extends TestCase
 
 class TitlesEnum extends Enum
 {
-    public const MR = 'Mr';
-    public const MISS = 'Miss';
-    public const MRS = 'Mrs';
+    const MR = 'Mr';
+    const MISS = 'Miss';
+    const MRS = 'Mrs';
 }
