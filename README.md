@@ -1,6 +1,6 @@
 # PHP Enum Wrapper
 
-[![Build Status](https://travis-ci.org/goldspecdigital/phpenum.svg?branch=master)](https://travis-ci.org/goldspecdigital/phpenum)
+[![Build Status](https://travis-ci.org/goldspecdigital/phpenum.svg?branch=1.0)](https://travis-ci.org/goldspecdigital/phpenum)
 
 A useful class which can be extended to give enum-like features to your code. Is intended to be used when modeling the MySQL enum type.
 
